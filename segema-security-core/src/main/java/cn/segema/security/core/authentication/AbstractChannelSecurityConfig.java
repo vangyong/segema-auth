@@ -15,17 +15,17 @@ import cn.segema.security.core.properties.SecurityConstants;
 public class AbstractChannelSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
-	protected AuthenticationSuccessHandler imoocAuthenticationSuccessHandler;
+	protected AuthenticationSuccessHandler segemaAuthenticationSuccessHandler;
 	
 	@Autowired
-	protected AuthenticationFailureHandler imoocAuthenticationFailureHandler;
+	protected AuthenticationFailureHandler segemaAuthenticationFailureHandler;
 	
 	protected void applyPasswordAuthenticationConfig(HttpSecurity http) throws Exception {
 		http.formLogin()
 			.loginPage(SecurityConstants.DEFAULT_UNAUTHENTICATION_URL)
 			.loginProcessingUrl(SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_FORM)
-			.successHandler(imoocAuthenticationSuccessHandler)
-			.failureHandler(imoocAuthenticationFailureHandler);
+			.successHandler(segemaAuthenticationSuccessHandler)
+			.failureHandler(segemaAuthenticationFailureHandler);
 	}
 	
 }
