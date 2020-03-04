@@ -21,7 +21,7 @@ import org.aspectj.lang.annotation.Around;
 //@Component
 public class TimeAspect {
 	
-	@Around("execution(* com.imooc.web.controller.UserController.*(..))")
+	@Around("execution(* com.segema.web.controller.UserController.*(..))")
 	public Object handleControllerMethod(ProceedingJoinPoint pjp) throws Throwable {
 		
 		System.out.println("time aspect start");

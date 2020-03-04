@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cn.segema.web.controller;
+package cn.segema.security.demo.web.controller;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.fileUpload;

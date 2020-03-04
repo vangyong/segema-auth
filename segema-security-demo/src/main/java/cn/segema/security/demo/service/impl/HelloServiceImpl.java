@@ -15,7 +15,7 @@ import cn.segema.security.demo.service.HelloService;
 public class HelloServiceImpl implements HelloService {
 
 	/* (non-Javadoc)
-	 * @see com.imooc.service.HelloService#greeting(java.lang.String)
+	 * @see com.segema.service.HelloService#greeting(java.lang.String)
 	 */
 	@Override
 	public String greeting(String name) {

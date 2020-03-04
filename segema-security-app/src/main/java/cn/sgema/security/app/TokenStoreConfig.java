@@ -14,8 +14,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
-import com.imooc.security.core.properties.SecurityProperties;
-
+import cn.segema.security.core.properties.SecurityProperties;
 import cn.sgema.security.app.jwt.SegemaJwtEnhancer;
 
 public class TokenStoreConfig {
@@ -24,13 +23,13 @@ public class TokenStoreConfig {
 	private RedisConnectionFactory redisConnectionFactory;
 	
 	@Bean
-	@ConditionalOnProperty(prefix="imooc.security.oauth2",name="storeType",havingValue="redis")
+	@ConditionalOnProperty(prefix="segema.security.oauth2",name="storeType",havingValue="redis")
 	public TokenStore redisTokenStore() {
 		return new RedisTokenStore(redisConnectionFactory);
 	}
 	
 	@Configuration
-	@ConditionalOnProperty(prefix="imooc.security.oauth2",name="storeType",havingValue="jwt",matchIfMissing=true)
+	@ConditionalOnProperty(prefix="segema.security.oauth2",name="storeType",havingValue="jwt",matchIfMissing=true)
 	public static class JwtTokenConfig{
 		@Autowired
 		private SecurityProperties securityProperties;
