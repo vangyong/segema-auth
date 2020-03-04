@@ -4,7 +4,7 @@
 package cn.segema.exception;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public class UserNotExistException extends RuntimeException {

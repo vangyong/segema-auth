@@ -1,7 +1,7 @@
 package cn.segema.security.core.validate.code.sms;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public class DefaultSmsCodeSender implements SmsCodeSender {

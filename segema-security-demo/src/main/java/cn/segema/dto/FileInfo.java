@@ -4,7 +4,7 @@
 package cn.segema.dto;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public class FileInfo {

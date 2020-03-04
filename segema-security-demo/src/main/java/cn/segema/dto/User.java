@@ -15,7 +15,7 @@ import cn.segema.validator.MyConstraint;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public class User {

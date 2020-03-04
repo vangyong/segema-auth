@@ -12,7 +12,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 @Component

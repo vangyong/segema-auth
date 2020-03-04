@@ -4,7 +4,7 @@
 package cn.segema.service;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public interface HelloService {

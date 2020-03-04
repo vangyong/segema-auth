@@ -17,7 +17,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.core.io.ClassPathResource;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public class MockServer {

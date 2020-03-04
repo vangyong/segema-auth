@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.async.DeferredResult;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 @Component

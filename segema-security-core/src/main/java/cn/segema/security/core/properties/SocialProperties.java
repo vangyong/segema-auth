@@ -5,7 +5,7 @@ package cn.segema.security.core.properties;
  */
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 public class SocialProperties {

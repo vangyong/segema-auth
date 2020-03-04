@@ -29,7 +29,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 @RunWith(SpringRunner.class)

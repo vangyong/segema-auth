@@ -23,7 +23,7 @@ import org.springframework.web.multipart.MultipartFile;
 import cn.segema.dto.FileInfo;
 
 /**
- * @author zhailiang
+ * @author vangyong@126.com
  *
  */
 @RestController
