@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.provider.token.store.redis.RedisToken
 
 import com.imooc.security.core.properties.SecurityProperties;
 
-import cn.sgema.security.app.jwt.ImoocJwtEnhancer;
+import cn.sgema.security.app.jwt.SegemaJwtEnhancer;
 
 public class TokenStoreConfig {
 	
@@ -52,7 +52,7 @@ public class TokenStoreConfig {
 		@Bean
 		@ConditionalOnMissingBean(name="jwtTokenEnhancer")
 		public TokenEnhancer jwtTokenEnhancer() {
-			 return new ImoocJwtEnhancer();
+			 return new SegemaJwtEnhancer();
 		}
 		
 		
