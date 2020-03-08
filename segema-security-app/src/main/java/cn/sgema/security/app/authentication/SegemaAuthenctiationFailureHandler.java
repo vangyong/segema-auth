@@ -19,6 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import cn.segema.security.core.properties.LoginResponseType;
 import cn.segema.security.core.properties.SecurityProperties;
+import cn.sgema.security.app.support.SimpleResponse;
 
 /**
  * @author wangyong

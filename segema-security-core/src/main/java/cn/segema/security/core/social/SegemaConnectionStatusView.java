@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  *
  */
 @Component("connect/status")
-public class ImoocConnectionStatusView extends AbstractView {
+public class SegemaConnectionStatusView extends AbstractView {
 	
 	@Autowired
 	private ObjectMapper objectMapper;

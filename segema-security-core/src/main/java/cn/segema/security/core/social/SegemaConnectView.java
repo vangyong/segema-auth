@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.AbstractView;
  * @author wangyong
  *
  */
-public class ImoocConnectView extends AbstractView {
+public class SegemaConnectView extends AbstractView {
 
 	/*
 	 * (non-Javadoc)

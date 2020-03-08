@@ -10,11 +10,11 @@ import org.springframework.social.security.SpringSocialConfigurer;
  * @author wangyong
  *
  */
-public class ImoocSpringSocialConfigurer extends SpringSocialConfigurer {
+public class SegemaSpringSocialConfigurer extends SpringSocialConfigurer {
 	
 	private String filterProcessesUrl;
 	
-	public ImoocSpringSocialConfigurer(String filterProcessesUrl) {
+	public SegemaSpringSocialConfigurer(String filterProcessesUrl) {
 		this.filterProcessesUrl = filterProcessesUrl;
 	}
 	

@@ -14,7 +14,7 @@ import org.springframework.web.servlet.View;
 
 import cn.segema.security.core.properties.SecurityProperties;
 import cn.segema.security.core.properties.WeixinProperties;
-import cn.segema.security.core.social.ImoocConnectView;
+import cn.segema.security.core.social.SegemaConnectView;
 import cn.segema.security.core.social.weixin.connect.WeixinConnectionFactory;
 
 /**
@@ -47,7 +47,7 @@ public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 	@Bean({"connect/weixinConnect", "connect/weixinConnected"})
 	@ConditionalOnMissingBean(name = "weixinConnectedView")
 	public View weixinConnectedView() {
-		return new ImoocConnectView();
+		return new SegemaConnectView();
 	}
 	
 }
