@@ -16,16 +16,15 @@ public class AbstractChannelSecurityConfig extends WebSecurityConfigurerAdapter 
 
 	@Autowired
 	protected AuthenticationSuccessHandler segemaAuthenticationSuccessHandler;
-	
+
 	@Autowired
 	protected AuthenticationFailureHandler segemaAuthenticationFailureHandler;
-	
+
 	protected void applyPasswordAuthenticationConfig(HttpSecurity http) throws Exception {
-		http.formLogin()
-			.loginPage(SecurityConstants.DEFAULT_UNAUTHENTICATION_URL)
-			.loginProcessingUrl(SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_FORM)
-			.successHandler(segemaAuthenticationSuccessHandler)
-			.failureHandler(segemaAuthenticationFailureHandler);
+		http.formLogin().loginPage(SecurityConstants.DEFAULT_UNAUTHENTICATION_URL)
+				// .loginPage(SecurityConstants.DEFAULT_LOGIN_PAGE_URL)
+				.loginProcessingUrl(SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_FORM)
+				.successHandler(segemaAuthenticationSuccessHandler).failureHandler(segemaAuthenticationFailureHandler);
 	}
-	
+
 }

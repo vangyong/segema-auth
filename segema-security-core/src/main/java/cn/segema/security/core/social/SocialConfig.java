@@ -1,6 +1,3 @@
-/**
- * 
- */
 package cn.segema.security.core.social;
 
 import javax.sql.DataSource;
@@ -41,7 +38,7 @@ public class SocialConfig extends SocialConfigurerAdapter {
 	public UsersConnectionRepository getUsersConnectionRepository(ConnectionFactoryLocator connectionFactoryLocator) {
 		JdbcUsersConnectionRepository repository = new JdbcUsersConnectionRepository(dataSource,
 				connectionFactoryLocator, Encryptors.noOpText());
-		repository.setTablePrefix("imooc_");
+		repository.setTablePrefix("segema_");
 		if(connectionSignUp != null) {
 			repository.setConnectionSignUp(connectionSignUp);
 		}
@@ -49,7 +46,7 @@ public class SocialConfig extends SocialConfigurerAdapter {
 	}
 
 	@Bean
-	public SpringSocialConfigurer imoocSocialSecurityConfig() {
+	public SpringSocialConfigurer segemaSocialSecurityConfig() {
 		String filterProcessesUrl = securityProperties.getSocial().getFilterProcessesUrl();
 		SegemaSpringSocialConfigurer configurer = new SegemaSpringSocialConfigurer(filterProcessesUrl);
 		configurer.signupUrl(securityProperties.getBrowser().getSignUpUrl());

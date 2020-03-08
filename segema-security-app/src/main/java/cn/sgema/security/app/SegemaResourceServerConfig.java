@@ -43,7 +43,7 @@ public class SegemaResourceServerConfig extends ResourceServerConfigurerAdapter 
 	private ValidateCodeSecurityConfig validateCodeSecurityConfig;
 	
 	@Autowired
-	private SpringSocialConfigurer imoocSocialSecurityConfig;
+	private SpringSocialConfigurer segemaSocialSecurityConfig;
 	
 	@Autowired
 	private SessionInformationExpiredStrategy sessionInformationExpiredStrategy;
@@ -53,10 +53,10 @@ public class SegemaResourceServerConfig extends ResourceServerConfigurerAdapter 
 	
 
     @Autowired
-    protected AuthenticationSuccessHandler imoocAuthenticationSuccessHandler;
+    protected AuthenticationSuccessHandler segemaAuthenticationSuccessHandler;
     
     @Autowired
-    protected AuthenticationFailureHandler imoocAuthenticationFailureHandler;
+    protected AuthenticationFailureHandler segemaAuthenticationFailureHandler;
 	
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
@@ -64,14 +64,14 @@ public class SegemaResourceServerConfig extends ResourceServerConfigurerAdapter 
 	    http.formLogin()
         .loginPage(SecurityConstants.DEFAULT_UNAUTHENTICATION_URL)
         .loginProcessingUrl(SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_FORM)
-        .successHandler(imoocAuthenticationSuccessHandler)
-        .failureHandler(imoocAuthenticationFailureHandler);
+        .successHandler(segemaAuthenticationSuccessHandler)
+        .failureHandler(segemaAuthenticationFailureHandler);
 		
 		http.apply(validateCodeSecurityConfig)
 				.and()
 			.apply(smsCodeAuthenticationSecurityConfig)
 				.and()
-			.apply(imoocSocialSecurityConfig)
+			.apply(segemaSocialSecurityConfig)
 				.and()
 			.authorizeRequests()
 				.antMatchers(

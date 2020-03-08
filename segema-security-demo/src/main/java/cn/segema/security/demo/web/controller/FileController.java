@@ -30,7 +30,7 @@ import cn.segema.security.demo.dto.FileInfo;
 @RequestMapping("/file")
 public class FileController {
 
-	private String folder = "/Users/wangyong/Movies/597779 [后端开发]Spring Security开发安全的REST服务 完整压缩包/p1o6vt/imooc-security-demo/src/main/java/com/imooc/web/controller";
+	private String folder = "/Users/wangyong/mygit/security-learn/segema-security-demo/src/main/java/cn/segema/security/demo/web/controller";
 
 	@PostMapping
 	public FileInfo upload(MultipartFile file) throws Exception {
