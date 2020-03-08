@@ -1,5 +1,7 @@
 # maven ignore
+target
 target/
+target/*
 *.jar
 *.war
 *.zip
@@ -9,13 +11,20 @@ target/
 
 # eclipse ignore
 .settings/
+.factorypath
+*/*.factorypath
 .classpath
 .target
+.target/
 .project
 .classpath
+*.classpath
+*.settings
 
 # idea ignore
 .idea/
+*/target/
+*/target/*
 *.ipr
 *.iml
 *.iws
@@ -29,7 +38,13 @@ target/
 
 # system ignore
 .DS_Store
+*.DS_Store
+*.*.DS_Store
+*/*.DS_Store
 Thumbs.db
+*.out
+*/*.out
 
 # else
 .springBeans
+*/.springBeans
