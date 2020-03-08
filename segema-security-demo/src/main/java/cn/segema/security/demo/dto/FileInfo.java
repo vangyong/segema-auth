@@ -4,7 +4,7 @@
 package cn.segema.security.demo.dto;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public class FileInfo {

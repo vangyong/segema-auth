@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import cn.segema.security.demo.exception.UserNotExistException;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @ControllerAdvice

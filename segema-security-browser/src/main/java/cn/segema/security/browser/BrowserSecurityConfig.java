@@ -30,7 +30,7 @@ import cn.segema.security.core.validate.code.ValidateCodeFilter;
 import cn.segema.security.core.validate.code.ValidateCodeSecurityConfig;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @Configuration

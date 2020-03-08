@@ -28,7 +28,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @RunWith(SpringRunner.class)

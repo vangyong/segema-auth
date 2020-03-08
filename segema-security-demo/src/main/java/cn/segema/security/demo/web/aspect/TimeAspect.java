@@ -14,7 +14,7 @@ import org.aspectj.lang.annotation.Around;
  * @afterThrow
  * @around 直接用这种
  * 
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 //@Aspect

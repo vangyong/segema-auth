@@ -1,7 +1,7 @@
 package cn.segema.security.core.properties;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public class OAuth2ClientProperties {

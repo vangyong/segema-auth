@@ -8,7 +8,7 @@ import java.util.List;
 import org.springframework.validation.ObjectError;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public class ValidateException extends RuntimeException {

@@ -6,7 +6,7 @@ package cn.segema.security.demo.dto;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public class UserQueryCondition {

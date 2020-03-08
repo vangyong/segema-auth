@@ -4,7 +4,7 @@
 package cn.segema.security.demo.service;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public interface HelloService {

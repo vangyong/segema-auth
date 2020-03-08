@@ -14,7 +14,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 //@Component

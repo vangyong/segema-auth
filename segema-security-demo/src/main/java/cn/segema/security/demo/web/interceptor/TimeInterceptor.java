@@ -14,7 +14,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @Component

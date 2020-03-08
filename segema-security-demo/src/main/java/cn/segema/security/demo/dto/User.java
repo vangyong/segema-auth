@@ -15,7 +15,7 @@ import cn.segema.security.demo.validator.MyConstraint;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public class User {

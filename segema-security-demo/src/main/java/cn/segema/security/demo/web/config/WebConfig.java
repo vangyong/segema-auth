@@ -17,7 +17,7 @@ import cn.segema.security.demo.web.filter.TimeFilter;
 import cn.segema.security.demo.web.interceptor.TimeInterceptor;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @Configuration

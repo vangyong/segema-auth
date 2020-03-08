@@ -12,7 +12,7 @@ import javax.validation.Constraint;
 import javax.validation.Payload;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @Target({ElementType.METHOD, ElementType.FIELD})

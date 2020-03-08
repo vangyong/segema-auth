@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import cn.segema.security.demo.service.HelloService;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 public class MyConstraintValidator implements ConstraintValidator<MyConstraint, Object> {

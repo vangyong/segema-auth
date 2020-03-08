@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import cn.segema.security.demo.service.HelloService;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @Service

@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author vangyong@126.com
+ * @author wangyong
  *
  */
 @Component
